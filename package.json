@@ -6,6 +6,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "prettify": "prettier --write .",
     "start": "node server.js"
   },
   "repository": {
@@ -21,5 +22,8 @@
   "homepage": "https://github.com/manuelsanchez2/full-stack-template#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.1"
   }
 }
