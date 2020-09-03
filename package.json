@@ -1,0 +1,21 @@
+{
+  "name": "full-stack-template",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Setup of Express Server with CRA, ESLint, Git Hooks and Prettier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuelsanchez2/full-stack-template.git"
+  },
+  "keywords": [],
+  "author": "Manuel Sanchez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manuelsanchez2/full-stack-template/issues"
+  },
+  "homepage": "https://github.com/manuelsanchez2/full-stack-template#readme"
+}
