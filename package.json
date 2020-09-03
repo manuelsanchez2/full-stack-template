@@ -3,9 +3,10 @@
   "private": true,
   "version": "1.0.0",
   "description": "Setup of Express Server with CRA, ESLint, Git Hooks and Prettier",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/manuelsanchez2/full-stack-template/issues"
   },
-  "homepage": "https://github.com/manuelsanchez2/full-stack-template#readme"
+  "homepage": "https://github.com/manuelsanchez2/full-stack-template#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
